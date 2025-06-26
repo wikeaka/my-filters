@@ -1,0 +1,20 @@
+! Title: My filter
+! Homepage: https://gist.github.com/wikeaka/a2fcb25ac7f945fee81dbf1b775c70e8
+# Skip age check
+asahibeer.co.jp##+js(set-cookie, drinkAge, allow)
+asahibeer-cp.jp##+js(set-cookie, drinkAge, allow)
+kirin.co.jp##+js(trusted-set-cookie, agechkover, agechkover, , /, reload, 1)
+suntory.co.jp##+js(set-cookie, o20, true)
+sapporobeer.jp##+js(set-cookie, age, 20)
+oenon.jp##+js(set-cookie, agecheck, true, /, reload, 1)
+
+dlsite.com##+js(trusted-set-cookie, locale, ja-JP)
+dlsite.com##+js(set-cookie, localesuggested, true)
+dlsite.com##+js(set-cookie, adultchecked, 1)
+dmm.co.jp##+js(trusted-set-cookie, age_check_done, 1, , /, domain, dmm.co.jp, reload, 1)
+
+iwara.tv##+js(set-local-storage-item, ecchi, 1)
+
+# Auto set configures
+img.2chan.net##+js(trusted-set-cookie, cxyl, 15x10x4x0x0, , , reload, 1)
+

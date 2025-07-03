@@ -1,4 +1,4 @@
-! Title: My filter
+! Title: My filter for uBlock Origin
 ! Homepage: https://github.com/wikeaka/my-filters
 # Skip age check
 asahibeer.co.jp##+js(set-cookie, drinkAge, allow)

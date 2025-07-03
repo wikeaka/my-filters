@@ -1,0 +1,20 @@
+! Title: My filter for AdGuard
+! Homepage: https://github.com/wikeaka/my-filters
+# Skip age check
+asahibeer.co.jp#%#//scriptlet('set-cookie', 'drinkAge', 'allow')
+asahibeer-cp.jp#%#//scriptlet('set-cookie', 'drinkAge', 'allow')
+kirin.co.jp#%#//scriptlet('trusted-set-cookie-reload', agechkover, agechkover)
+suntory.co.jp#%#//scriptlet('set-cookie', 'o20', 'true')
+sapporobeer.jp#%#//scriptlet('set-cookie', 'age', '20')
+oenon.jp#%#//scriptlet('set-cookie-reload', 'agecheck', 'true')
+
+dlsite.com#%#//scriptlet('trusted-set-cookie', 'locale', 'ja-JP')
+dlsite.com#%#//scriptlet('set-cookie', 'localesuggested', 'true')
+dlsite.com#%#//scriptlet('set-cookie', 'adultchecked', '1')
+dmm.co.jp#%#//scriptlet('set-cookie-reload', 'age_check_done', '1', , /, dmm.co.jp)
+
+iwara.tv#%#//scriptlet('set-local-storage-item', 'ecchi', '1')
+
+# Auto set configures
+img.2chan.net#%#//scriptlet('trusted-set-cookie-reload', 'cxyl', '15x10x4x0x0')
+

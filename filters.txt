@@ -1,5 +1,5 @@
 ! Title: My filter
-! Homepage: https://gist.github.com/wikeaka/a2fcb25ac7f945fee81dbf1b775c70e8
+! Homepage: https://github.com/wikeaka/my-filters
 # Skip age check
 asahibeer.co.jp##+js(set-cookie, drinkAge, allow)
 asahibeer-cp.jp##+js(set-cookie, drinkAge, allow)
